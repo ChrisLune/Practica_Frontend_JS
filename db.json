@@ -1,0 +1,10 @@
+{
+    "users": [
+      { "id": 1, "username": "user1", "password": "pass1" }
+    ],
+    "ads": [
+      { "id": 1, "title": "Producto 1", "description": "Descripción 1", "price": 100, "type": "venta", "image": "url_imagen_1", "userId": 1 },
+      { "id": 2, "title": "Producto 2", "description": "Descripción 2", "price": 200, "type": "compra", "image": "url_imagen_2", "userId": 1 }
+    ]
+  }
+  
