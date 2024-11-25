@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Anuncio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Crear Anuncio</h1>
+            <button id="back-btn">Volver</button>
+        </header>
+        <main>
+            <form id="create-ad-form">
+                <label for="image">Foto (opcional):</label>
+                <input type="file" id="image" name="image">
+                <label for="title">Nombre:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" required></textarea>
+                <label for="price">Precio:</label>
+                <input type="number" id="price" name="price" required>
+                <label for="type">Compra/Venta:</label>
+                <select id="type" name="type" required>
+                    <option value="venta">Venta</option>
+                    <option value="compra">Compra</option>
+                </select>
+                <button type="submit">Crear Anuncio</button>
+            </form>
+        </main>
+    </div>
+    <script src="scripts/create-ad.js"></script>
+</body>
+</html>
